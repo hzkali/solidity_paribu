@@ -8,7 +8,7 @@ contract FeeCollector {
 
     // there we have a constructor function to start the contract
     constructor() {
-        owner = msg.sender; // 0x3BF0ff163136Cd4D3211773ed593d15f179a0f66
+        owner = msg.sender; 
     }
 
     // this function increases balance by value of 'msg.value'
